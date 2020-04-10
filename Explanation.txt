@@ -1,0 +1,9 @@
+Explanation of the approach:-
+
+Humans can understand and read the contents of an image by just looking in it.Our mind is trained in a way to read everything on a image with a known language.But computers cant so for fulfilling this task we train our computer to work as an OCR(Optical Character Recognition).
+This technique is quite helpful when we want to covert a set of images into a digital copy.
+To fulfill this task I have used pytesseract (an OCR tool for python).It reads and recognizes the text that is embedded in image.
+Then I have imported pytesseract as tess. 
+Then in tess I have stored the location of my pytesseract files.
+Then storing and reading of image.
+Last step includes the printing of the text that the system has read.
